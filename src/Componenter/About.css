@@ -1,0 +1,34 @@
+
+
+
+.content{
+    width: 100%;
+    height: auto;
+    margin: 0.5rem 1rem;
+    display: flex;
+    gap: 2rem;
+}
+.content-box{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: -webkit-left;
+    border-radius: 0.5rem;
+    border: 1.5px solid rgb(0 0 0 / 12%);
+}
+.content p{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: small;
+    color: #000000ab;
+}
+.content h4{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    color: #5c252a;
+}

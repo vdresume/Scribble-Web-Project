@@ -1,0 +1,27 @@
+.project-container{
+    width: 100%;
+    height: inherit;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.project-child{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    justify-content: space-evenly;
+
+}
+.project-img img{
+    width: 100%;
+    height: 300px;
+}
+.project-child p{
+    font-size: medium;
+    color: #000000ab;
+}
+.project-child h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #5c252a;
+}
