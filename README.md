@@ -1,5 +1,5 @@
-Scribble<br>
-This project create in teact js
+<h5 bg red>Scribble-web project </h5><br>
+This project create in React js
 skill use in this project :<br>
 HTML5<br>
 CSS3<br>
