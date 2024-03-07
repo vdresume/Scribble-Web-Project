@@ -6,8 +6,8 @@ let About = () => {
   return (
       <>
         <div className="container-fluid">
-          <div className="row">
-            <div className="col text-center mt-5">
+          <div className="about">
+            <div className="about-details text-center mt-5">
               <h1>WE'RE AN SEO COMPANY FOR STARTUPS AND BUSINESSES</h1>
               <p>
                 A sentence or two describing this item. Lorem ipsum dolor sit
