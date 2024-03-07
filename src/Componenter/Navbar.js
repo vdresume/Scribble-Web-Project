@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 let Navbar =() => {
   return(
     <>
-    <nav className="navbar navbar-expand-md bg-light fixed-top">
+    <nav className="navbar navbar-expand bg-light fixed-top">
 
 <div className="container-fluid">
           <img className="logo" src="./Images/logo (vd).jpg" alt="vdparmar" />
@@ -20,19 +20,19 @@ let Navbar =() => {
 
   <ul className="navbar-nav" id="collapsibleNavbar">
     <li className="nav-item">
-      <a className="nav-link" href="{./Hero}">Home</a>
+      <a className="nav-link" href={"/Hero"}>Home</a>
     </li>
     <li className="nav-item">
-      <a className="nav-link" href="{/About}">About</a>
+      <a className="nav-link" href={"/About"}>About</a>
     </li>
     <li className="nav-item">
-      <a className="nav-link" href="{/Project}">What We Do</a>
+      <a className="nav-link" href={"/Project"}>What We Do</a>
     </li>
     {/* <li className="nav-item">
       <a className="nav-link" href="#">Testimonials</a>
     </li> */}
     <li className="nav-item">
-      <a className="nav-link" href="#">Contact Me</a>
+      <a className="nav-link" href={"/Contact"}>Contact Me</a>
     </li>
   
   {/* <button className="contact-btn" onClick={{}}>
